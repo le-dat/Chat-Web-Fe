@@ -1,23 +1,12 @@
-import Categories from "./components/categories"
-import Chat from "./components/chat"
-import Header from "./components/header"
-import Message from "./components/message"
-import Sidebar from "./components/sidebar"
+import { Toaster } from "react-hot-toast"
+import RouteNavigate from "./provider/RouteNavigate"
 
 function App() {
   return (
-    <div>
-      <div className="flex">
-        <Categories />
-        <Sidebar />
-
-        <div className="flex flex-col flex-1">
-          <Header />
-          <Message />
-          <Chat />
-        </div>
-      </div>
-    </div>
+    <>
+    <RouteNavigate />
+    <Toaster />
+  </>
   )
 }
 
