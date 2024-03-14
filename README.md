@@ -1,4 +1,4 @@
-Zalo Front-end create by [Vite](https://vitejs.dev/guide/)
+Zalo Front-end [https://chat-web-fe-vite.vercel.app/](https://chat-web-fe-vite.vercel.app/)
 
 ## Features
 
@@ -22,4 +22,4 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:5173) with your browser to see the result.
+Open http://localhost:5173 with your browser to see the result.
